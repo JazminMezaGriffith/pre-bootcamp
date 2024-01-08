@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Pixelify+Sans:400,800");
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#ocean {
+    background-image: url('img/ocean.jpg');
+    width: 600px;
+    height: 435px;
+    background-size: contain;
+}
+
+.player {
+    background-image: url(img/player.png);
+    width: 30px;
+    height: 48px;
+    background-size: contain;
+    position: absolute;
+}
+.enemy {
+    background-image: url(img/enemy.png);
+    width: 60px;
+    height: 65px;
+    background-size: contain;
+    position: absolute;
+}
+
+.missile {
+    width: 2px;
+    height: 10px;
+    position: absolute;
+    background-color: #fe1d01;
+}
