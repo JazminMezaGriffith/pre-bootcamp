@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Pixelify+Sans:400,800");
+* {
+    margin: 0;
+    padding: 0;
+}
+.row {
+    line-height: 0;
+}
+
+.wall,
+.sushi,
+.onigiri,
+.blank,
+#ninjaman,
+#red {
+    background-color: #b0ce5d;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-size: contain;
+}
+
+.wall {
+    background-image: url('img/bamboo.png');
+}
+.sushi {
+    background-image: url('img/sushi.png');
+}
+.onigiri {
+    background-image: url('img/onigiri.png');
+}
+#ninjaman {
+    background-image: url('img/ninjaRight.gif');
+    position: absolute;
+}
+#red {
+    background-image: url('img/red.gif');
+    position: absolute;
+}
+
+.container {
+    display: flex;
+}
+
+p,
+button {
+    font-size: 20px;
+    display: inline-block;
+    font-family: "Pixelify sans", sans-serif;
+    margin: 15px;
+}
+#message {
+    font-weight: bold;
+    color: #fe1d01;
+}
+button {
+    margin-top: 0px;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+#restartButton {
+    display: none;
+}
